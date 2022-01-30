@@ -1,11 +1,9 @@
 # Importing flask module in the project is mandatory
 # An object of Flask class is our WSGI application.
-import traceback
 from flask import Flask
 import pandas as pd
 import numpy as np
-import tensorflow as tf
-import keras,librosa
+import librosa
 from keras.models import load_model
 from flask import render_template,request
 from werkzeug.utils import secure_filename
